@@ -11,6 +11,12 @@
     background: linear-gradient(to right, #000000 50%, #57B8FF 50%) cover no-repeat;
 }
 
+.container {
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
 .split {
     height: 1069px;
     width: 50%;
@@ -21,7 +27,7 @@
     z-index: -1;
 }
 
-.left { 
+.left {
     left: 0;
     background-color: #000000;
 }
@@ -193,57 +199,103 @@
 .hero__right {
     position: relative;
 }
-.content{
+
+.content {
     width: 100%;
     height: 542px;
     background-color: #FDD04A;
 }
+
 .content__text {
     text-align: center;
     padding-top: 130px;
 }
+
 .content__subject {
     margin-top: 27px;
 }
+
 .content__features {
     display: block;
     text-align: center;
     padding-top: 45px;
     padding-bottom: 130px;
 }
-.benefits{
+
+.benefits {
     padding-left: 32px;
 }
+
 .shop {
-	background: url('/images/future_bg.jpg') no-repeat center 
-		/ cover;
-	padding: 130px 0;
+    background: url('/images/future_bg.jpg') no-repeat center / cover;
+    padding: 130px 0;
 }
 
 .shop__header {
-	width: 100%;
-	max-width: 716px;
-	text-align: center;
-	margin: 0 auto;
+    width: 100%;
+    max-width: 716px;
+    text-align: center;
+    margin: 0 auto;
 }
-	.suptitle {
-		justify-content: center;
-	}
 
+.suptitle {
+    justify-content: center;
+}
 
 .title {
-	font-size: 64px;
-	line-height: 74px;
-	color: #fff;
+    font-size: 64px;
+    line-height: 74px;
+    color: #fff;
 }
 
 .shop__title {
-	margin: 12px auto 39px;
+    margin: 12px auto 39px;
 }
 
 .shop__text {
-	font-size: 20px;
-	line-height: 32px;
-	color: rgba(223, 223, 223, 0.8);
-	margin-bottom: 60px;
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(223, 223, 223, 0.8);
+    margin-bottom: 60px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    align-items: center;
+}
+
+.features__item {
+    position: relative;
+    transition: .5s ease-in-out;
+    padding: 35px 36px 32px 80px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+}
+
+.features__title {
+    font-size: 32px;
+    line-height: 42px;
+    color: #fff;
+    position: relative;
+    margin-bottom: 19px;
+}
+
+.features__title::after {
+    content: '';
+    width: 31px;
+    height: 31px;
+    background: url('../images/icons/star.svg') no-repeat;
+    position: absolute;
+    top: 0;
+    left: -50px;
+    z-index: 1;
+}
+
+.features__text {
+    width: 100%;
+    max-width: 470px;
+    color: rgba(223, 223, 223, 0.8);
 }
