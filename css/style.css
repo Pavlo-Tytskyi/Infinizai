@@ -214,3 +214,36 @@
 .benefits{
     padding-left: 32px;
 }
+.shop {
+	background: url('/images/future_bg.jpg') no-repeat center 
+		/ cover;
+	padding: 130px 0;
+}
+
+.shop__header {
+	width: 100%;
+	max-width: 716px;
+	text-align: center;
+	margin: 0 auto;
+}
+	.suptitle {
+		justify-content: center;
+	}
+
+
+.title {
+	font-size: 64px;
+	line-height: 74px;
+	color: #fff;
+}
+
+.shop__title {
+	margin: 12px auto 39px;
+}
+
+.shop__text {
+	font-size: 20px;
+	line-height: 32px;
+	color: rgba(223, 223, 223, 0.8);
+	margin-bottom: 60px;
+}
