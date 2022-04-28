@@ -215,7 +215,7 @@ header {
 }
 
 .shop {
-    background: url('/images/future_bg.jpg') no-repeat center / cover;
+    background: url('../images/future_bg.png') no-repeat center / cover;
     padding: 130px 0;
     max-height: 1300px;
 }
@@ -430,7 +430,7 @@ header {
     width: 100%;
     max-width: 480px;
     height: 732px;
-    background: url('/images/gaming_wrapper/1.png') no-repeat center;
+    background: url('../images/gaming_wrapper/1.png') no-repeat center;
     position: relative;
 }
 
@@ -442,7 +442,7 @@ header {
     z-index: -1;
     width: 480px;
     height: 732px;
-    background: url('/images/gaming_wrapper/2.png') no-repeat center;
+    background: url('../images/gaming_wrapper/2.png') no-repeat center;
     position: relative;
 }
 
@@ -454,7 +454,7 @@ header {
     z-index: -1;
     width: 480px;
     background-color: #fff;
-    background: url('/images/gaming_wrapper/3.png') no-repeat center;
+    background: url('../images/gaming_wrapper/3.png') no-repeat center;
     position: relative;
 }
 
@@ -550,7 +550,7 @@ header {
 }
 
 .community {
-    background: url(/images/community_img/community_bg.png);
+    background: url(../images/community_img/community_bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
